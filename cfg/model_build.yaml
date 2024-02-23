@@ -1,0 +1,26 @@
+processing:
+  image_uri:
+  entry_point:
+  parameters:
+    output_folder:
+    file_name:
+    instance_type:
+    instance_count:
+    base_job_name:
+
+training:
+  image_uri:
+  entry_point:
+  hyperparameters:
+    n_estimators:
+    target:
+    tracking_uri:
+    experiment_name:
+    save_model_in_resgistry:
+    model_name:
+    instance_type:
+    instance_count:
+    base_job_name:
+
+pipeline:
+  name: housing

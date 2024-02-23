@@ -1,0 +1,13 @@
+model:
+ name: housing
+ version: 1
+ tracking_uri: http://mlflow-mlflow-mlflo-1q3z3v
+ location_ssm_parameter: /mlflow/model/housing/production
+
+
+
+ endpoint:
+   name: housing-endpoint
+   instance_type: ml.m5.large
+   instance_count: 1
+   image_uri: 123456789012.dkr.ecr.us-west-2.amazonaws.com/housing-inference:latest
